@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avocados</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            text-align: center;
+            position: absolute;
+            top: 200;
+            left: 0;
+            right: 0;
+            padding: 150px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px; 
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px 30px; 
+            border-radius: 2px; 
+            background-color: #4CAF50; 
+            transition: background-color 0.3s; 
+        }
+
+        nav ul li a:hover {
+            background-color: #45a049; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: rgb(0, 0, 0);
+        }
+
+     
+        header {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 90px; 
+            font-weight: bold; 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            top: 60;
+        }
+
+       
+        .image-section {
+            text-align: center;
+            margin-top: 50px; 
+        }
+
+     
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-container img {
+            max-width: 48%; 
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="overview.html">Culinary</a></li>
+            <li><a href="Where.html">Where</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Culture.html">Culture</a></li>
+            <li><a href="Variety.html">Variety</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Culinary</h1>
+    </header>
+
+    <section class="image-section">
+
+        <div class="image-container">
+            <img src="images/eggs.jpg" alt="Avocado" class="eggs-jpg">
+            <img src="images/toast.jpg" alt="Avocado" class="toast-jpg">
+        </div>
+        <div class="image-container">
+            <img src="images/egg1.jpg" alt="Avocado" class="egg1-jpg">
+            <img src="images/egg2.jpg" alt="Avocado" class="egg2-jpg">
+        </div>
+        <img src="images/final.jpg" alt="Avocado" class="final-jpg">
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vintage Camera Perspectives</p>
+    </footer>
+</body>
+</html>
